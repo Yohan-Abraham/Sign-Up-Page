@@ -24,11 +24,53 @@ body {
     width: 60vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    background-color: whitesmoke;
+    height: 100vh;
 }
 
 .image-container {
     width: 40vw;
+    background-color: black;
     background-image: url(https://images.unsplash.com/photo-1682160880926-a86a59137c03?q=80&w=3632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.extra {
+    width: 100%;
+    padding: 1.5em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+    padding: 2em;
+    background-color: white;
+    box-shadow: 0 4px 10px lightgray;
+}
+
+
+input,
+label {
+    font: inherit;
+    font-size: 1.1rem;
+}
+
+label {
+    display: block;
+}
+
+.section {
+    display: flex;
+    justify-content: flex-start;
+    gap: 4em;
+    margin-bottom: 1em;
 }
