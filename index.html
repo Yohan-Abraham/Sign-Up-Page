@@ -9,67 +9,71 @@
 </head>
 
 <body>
-    <div class="image-container">
-        <div class="border">
-            <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
-                width="100px" height="120px">
-            <span>Odin</span>
-        </div>
-    </div>
-
-    <div class="signup-container">
-        <div class="information">
-            <h2 class="text">This is not a real online service! You know you need something like this in your life
-                to help you realize your deapest dreams. Sign up now to get started.</h2>
-
-            <div>
-                <h2 class="text">You know you want to.</h2>
+    <div class="container">
+        <div class="image-container">
+            <div class="border">
+                <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+                    width="100px" height="120px">
+                <span>Odin</span>
             </div>
         </div>
-        <div class="form">
-            <h2>Let's do this!</h2>
+
+        <div class="signup-container">
+            <div class="information">
+                <p class="text">This is not a real online service! You know you need something like this in your life
+                    to help you realize your deapest dreams. Sign up now to get started.</p>
+
+                <div>
+                    <p class="call-to-action">You know you want to.</p>
+                </div>
+            </div>
             <form action="" method="get">
+                <div class="form">
+                    <h2>Let's do this!</h2>
 
-                <div class="section">
-                    <p>
-                        <label for="first-name">FIRST NAME</label>
-                        <input id="first-name" name="first-name" type="text">
-                    </p>
-                    <p>
-                        <label for="last-name">LAST NAME</label>
-                        <input id="last-name" name="last-name" type="text">
-                    </p>
+
+                    <div class="section">
+                        <p>
+                            <label for="first-name">FIRST NAME</label>
+                            <input id="first-name" name="first-name" type="text" required>
+                        </p>
+                        <p>
+                            <label for="last-name">LAST NAME</label>
+                            <input id="last-name" name="last-name" type="text" required>
+                        </p>
+                    </div>
+
+                    <div class="section">
+                        <p>
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" required>
+                        </p>
+
+                        <p>
+                            <label for="phone">PHONE NUMBER</label>
+                            <input id="phone" name="phone-number" type="tel" required>
+                        </p>
+                    </div>
+
+                    <div class="section">
+                        <p>
+                            <label for="password">PASSWORD</label>
+                            <input id="password" name="password" type="password" required>
+                        </p>
+
+                        <p>
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input id="confirm-password" name="confirm-password" type="password" required>
+                        </p>
+                    </div>
+
                 </div>
 
-                <div class="section">
-                    <p>
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email" name="email">
-                    </p>
-
-                    <p>
-                        <label for="phone">PHONE NUMBER</label>
-                        <input id="phone" name="phone-number" type="tel">
-                    </p>
+                <div class="button-wrapper"><button type="submit" class="account">Create Account</button>
+                    <p>Already have an account? <span style="color: #596D48; font-weight: bold;">Log In</span></p>
                 </div>
-
-                <div class="section">
-                    <p>
-                        <label for="password">PASSWORD</label>
-                        <input id="password" name="password" type="password" required>
-                    </p>
-
-                    <p>
-                        <label for="confirm-password">CONFIRM PASSWORD</label>
-                        <input id="confirm-password" name="confirm-password" type="password" required>
-                    </p>
-                </div>
-                <button type="submit" class="account">Create Account</button>
             </form>
-        </div>
-        <div class="extra">
 
-            <p>Already have an account? <span style="color: #596D48; font-weight: bold;">Log In</span></p>
         </div>
     </div>
 </body>
