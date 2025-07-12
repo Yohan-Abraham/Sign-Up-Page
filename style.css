@@ -32,6 +32,7 @@ a {
     justify-content: end;
     align-items: center;
     position: relative;
+    flex: 1;
 }
 
 .border {
