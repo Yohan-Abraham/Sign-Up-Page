@@ -13,7 +13,9 @@
     box-sizing: border-box;
 }
 
-
+a {
+    color: white;
+}
 
 .container {
     display: flex;
@@ -25,6 +27,10 @@
     background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
     position: relative;
 }
 
@@ -36,6 +42,11 @@
     top: 2.7em;
     width: 100%;
     background-color: rgb(0 0 0 / 30%);
+}
+
+.credit {
+    font-size: 1rem;
+    padding-bottom: 1em;
 }
 
 .signup-container {
